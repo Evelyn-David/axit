@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1200px) {
+    .tablet-invisible{
+        display: none;
+    }
+
+    /* social media */
+    .social-media-img a i.img-left{
+        margin-left: 36px;
+    }
+
+    .social-media-text h1{
+        margin-top: 42px;
+    }
+
+    .social-media-img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .social-media-text{
+        width: 20%;
+    }
+    
+    .social-media-img{
+        width: 80%;
+    }
+
+    /* feature 1 */
+    .f-1 .f-tabs,
+    .f-1 .f-text{
+        display: inline;
+    }
+
+    .f-1 .f-text{
+        width: 50%;
+    }
+
+    /* feature 2 */
+    .f-2{
+        padding-top: 60px;
+        height: 810px;
+    }
+
+    .f-2 .f-text{
+        float: none;
+        width: 500px;
+    }
+
+    .f-2 .f-img{
+        margin-top: 50px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    /* feature ???????????????????????? */
+    .f-3{
+        height: 520px;
+    }
+
+    .f-3 .f-text{
+        width: 350px;
+    }
+
+    .f-3 .f-img{
+        float: right;
+        width: 300px;
+    }
+    
+
+
+    /* why section */
+    .why-grid{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 50px;
+        margin-bottom: 100px;
+    }
+
+    .w-item{
+        margin: auto;
+        width: 30%;
+    }
+    
+    /* testimony */
+    .t-grid{
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+        column-gap: 70px;
+        font-family: "Open Sans";
+        text-align: left;
+    }
+
+    /* download ????????????????????????????????????????*/
+    .tablet-btn button{
+        padding: 8px 36%;
+    }
+
+    /* contact */
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 54px;
+    }
+}
