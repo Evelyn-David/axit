@@ -103,3 +103,143 @@
         column-gap: 54px;
     }
 }
+
+@media only screen and (max-width: 992px) {
+    /* navigation -------------------------------------------- */
+    nav{
+        background-color: #000000;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    nav .nav-logo{
+        display: none;
+    }
+
+    nav .nav-items{
+        float: left;
+        padding-top: 15px;
+    }
+
+    /* header left-side --------------------------------------------*/
+    header{
+        height: 500px;
+        position: relative;
+    }
+
+    .h-left{
+        margin-top: 50px;
+        color: #ffffff;
+    }
+
+    .h-left h1{
+        font-size: 42px;
+    }
+
+    .h-left h2{
+        font-size: 24px;
+    }
+
+    /* social media -------------------------------------------- */
+    .social-media-text{
+        width: 30%;
+    }
+
+    .social-media-img{
+        width: 70%;
+    }
+
+    .social-media-text h1{
+        font-size: 20px;
+        color: #333333;
+        margin-top: 32px;
+    }
+
+    .social-media-img i{
+        color: #cccccc;
+        font-size: 30px;
+    }
+
+    .social-media-img a i.img-left{
+        margin-left: 20px;
+    }
+
+   
+    /* feature 2 -------------------------------------------- */
+    .f-2 .f-img,
+    .f-2 .f-text{
+        display: inline;
+    }
+
+    .f-2 .f-img{
+        width: 480px;
+    }
+
+
+    /* feature 3 -------------------------------------------- */
+    .f-3{
+        height: 780px;
+    }
+
+    .f-3 .f-img{
+        margin-top: 30px;
+        width: 480px;
+        height: 320px;
+    }
+
+    
+    /* why-grid --------------------------------------------*/
+    .why-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .w-item{
+        width: 50%;
+    }
+
+    
+    /* pricing options -------------------------------------------- */
+    .pricing{
+        background-color: #f5f5f5;
+        padding: 100px 0px;
+    }
+
+    .pricing-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        width: 60%;
+        margin: auto;
+    }
+
+    .pricing-grid .no-pro{
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+    /* testimonials -------------------------------------------- */
+    
+    .t-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        font-family: "Open Sans";
+        text-align: left;
+    }
+
+    .testimony p{
+        padding: 20px 14px 24px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+    }
+}
